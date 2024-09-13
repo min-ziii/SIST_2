@@ -1,0 +1,93 @@
+새프로젝트 생성
+New > Dynamic Web Project
+    > project name: "JSPTest"
+    > context root: "jsp"
+    > generate web.xml: 체크O
+
+
+Hello
+- webapp > "ex01.jsp"
+
+
+Servlet
+- 자바 기반(클래스)
+- HTML 구문 > 문자열 조작
+- 장점: 자바 코드 작성 원할
+- 단점: HTML 코드 작성 곤란
+
+JSP
+- HTML 기반
+- 자바 구문 > 일부 영역 제공(<% %>)
+- 장점: HTML 코드 작성 원할
+- 단점: 자바 코드 작성 약간 불편
+
+
+
+JSP 구성 요소 > 자바 요소
+
+1. JSP 지시자, JSP Directive
+	- <%@ %>
+	- page 지시자
+	- include 지시자
+	- taglib 지시자
+
+2. 스크립트 요소, Scripting Elements
+	- <% %>
+	- 스크립틀릿
+	- 익스프레션
+	- 선언부
+
+3. 액션 태그, Action Tag
+	- <jsp:XXX> or <c:XXX>
+	- 기본 액션 태그
+	- 확장 액션 태그
+	- 사용자 정의 액션 태그
+
+
+Servlet > Tomcat > Servlet Container
+JSP     > Tomcat > JSP Container
+
+	
+
+page 지시자
+- webapp > "ex02.jsp"
+- JSP 페이지 실행 환경 > 톰캣에게 알려주는 내용
+- JSP 페이지 상단에 기술
+- 1개 이상 작성 가능~
+
+- <%@ page 
+		language="java" 
+		contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8"
+  %>
+	a. language="java" 
+		- JSP 페이지에서 사용할 프로그래밍 언어 지정
+		
+	b. contentType="text/html; charset=UTF-8"
+		- JSP 페이지의 콘텐츠에 대한 기술
+		- text/html: MIME 타입 > HTML 페이지 > 브라우저에게 전달
+		- charset=UTF-8: 인코딩 > HTML 페이지 > 브라우저에게 전달
+
+	c. pageEncoding="UTF-8"
+		- 현재 JSP 페이지의 인코딩
+
+
+
+include 지시자
+- webapp > "ex03.jsp" > 일반 페이지
+- webapp > "inc" > "copyright.jsp" > 조각 페이지
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
