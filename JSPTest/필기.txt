@@ -157,6 +157,80 @@ response
 	- contentType="text/html;"
 	- 파일 업로드 수업 때
 
+-- 0920 오전
+4. 페이지 이동하기
+	- "ex13_response_1.jsp"
+	- "ex13_response_2.jsp"
+	
+pageContext
+- "ex14_pagecontext_1.jsp"
+- "ex14_pagecontext_2.jsp"
+
+
+out
+- 출력 객체
+- JSP 방식이 아닌 Servlet 방식으로 출력을 지원하는 객체
+- "ex15_out.jsp"
+
+
+session & application
+- session > 개인 정보 관리 객체
+- application > 사이트 정보 관리 객체
+
+- "ex16_session.jsp"
+- "ex16_session_2.jsp"
+- "ex16_session_3.jsp"
+
+
+- "ex17_session.jsp"
+
+- "ex18_session.jsp"		//메인 페이지
+- "ex18_set.jsp"			//기능 페이지
+- "ex18_del.jsp"
+- "ex18_interval.jsp"
+- "ex18_reset.jsp"
+
+
+
+
+파일 업로드/ 다운로드
+9월 12일에 jsoup 다운 받고
+9월 20일에 cos 다운 받음
+
+cos.jar 다운로드!!!!! lib에 넣기(카톡 참고)
+
+단일 파일 업로드
+- "ex19_form.jsp"
+- "ex19_ok.jsp"
+
+
+다중 파일 업로드
+- "ex20_form.jsp"
+- "ex20_ok.jsp"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
